@@ -104,16 +104,16 @@ a:visited {
 
 @media only screen and (max-width: 1000px) {
   .wrapper {
-    font-size: 40px;
+    font-size: 14px;
   }
 
   .output-wrapper {
-    font-size: 40px;
+    font-size: 14px;
   }
 
   .input {
     width: 100%;
-    font-size: 40px;
+    font-size: 16px;
     padding: 0 0 0 0.4em;
   }
 
@@ -128,6 +128,6 @@ a:visited {
   }
 
   .prompt-wrapper {
-    height: 3.45em;
+    height: 2.69em;
   }
 }
