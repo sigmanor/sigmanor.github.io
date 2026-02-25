@@ -32,6 +32,7 @@ body {
   object-fit: cover;
   border: 3px solid #6279bb;
   margin-bottom: 1rem;
+  image-rendering: high-quality;
 }
 
 .profile-name {
