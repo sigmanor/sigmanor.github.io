@@ -57,6 +57,7 @@ function executeCommand(command) {
       appendOutput('- contacts: how can you get in touch with me<br>');
       appendOutput('- echo &lt;text&gt;: display your text in the terminal output<br>');
       appendOutput('- clear: clear the output screen<br>');
+      appendOutput('- cd links: navigate to links page<br>');
 
       createPrompt();
       break;
@@ -86,6 +87,9 @@ function executeCommand(command) {
       const emailLink = '<a title="email" href="mailto:dock-brunt-rarity@duck.com" target="_blank">dock-brunt-rarity@duck.com</a>';
       appendOutput(`<br>${linkedinLink}<br>${emailLink}`);
       createPrompt();
+      break;
+    case 'cd links':
+      window.location.href = '/links/';
       break;
     default:
       appendOutput(`"${command}" is not a recognized command. Type "help" for a list of available commands.<br>`);
